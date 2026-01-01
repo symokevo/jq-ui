@@ -29,3 +29,15 @@ $(“#childElement”).parent()
 $(“ul”).children()
 // Select the next sibling of an element
 $(“.current”).next()
+
+FILTERING ELEMENTS
+Refine your selections by filtering elements that meet specific conditions. This enhances precision in manipulating specific parts of your webpage:
+// Filter by even-numbered elements
+$(“li”).filter(“:even”)
+// Filter by elements containing specific text
+$(“p”).filter(“:contains(‘jQuery’)”)
+
+METHOD CHAINING
+One of jQuery’s strengths lies in its method chaining, enabling you to combine multiple methods into a single, concise line of code:
+// Chain methods to select and manipulate an element
+$(“#myElement”).addClass(“highlight”).slideUp(1000);

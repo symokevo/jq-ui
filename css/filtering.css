@@ -1,0 +1,15 @@
+.box {
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: red;
+}
+.box1 {
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: blue;
+}
+.box2 {
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: green;
+}
