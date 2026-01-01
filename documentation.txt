@@ -1,0 +1,31 @@
+BASIC SELECTORS
+Selecting elements on a web page is at the core of jQuery’s capabilities. Basic selectors enable you to target elements by their HTML tags, classes, and IDs. Here’s a glimpse of how it’s done:
+// Select by tag
+$(“p”) // Selects all <p> elements
+// Select by class
+$(“.highlight”) // Selects elements with class “highlight”
+// Select by ID
+$(“#header”) // Selects the element with ID “header”
+
+ATTRIBUTE SELECTORS
+Attribute selectors empower you to target elements based on their attributes and values. This is particularly useful for handling input validation and customization:
+// Select by attribute
+$(“input[type=’text’]”) // Selects all text input elements
+// Select with specific attribute
+$(“[data-toggle]”) // Selects elements with “data-toggle” attribute
+
+PSEUDO SELECTORS
+Pseudo selectors offer dynamic selection based on element states, such as :hover, :first-child, and :nth-child:
+// Select the first <li> element inside <ul>
+$(“ul li:first-child”)
+// Select odd-numbered <tr> elements in a table
+$(“table tr:nth-child(odd)”)
+
+DOM TRAVERSAL
+jQuery simplifies the process of navigating the DOM hierarchy, allowing you to traverse through parent, children, and sibling elements with ease:
+// Select the parent of an element
+$(“#childElement”).parent()
+// Select all direct children of an element
+$(“ul”).children()
+// Select the next sibling of an element
+$(“.current”).next()
